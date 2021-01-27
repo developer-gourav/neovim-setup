@@ -1,0 +1,98 @@
+{
+  "coc.preferences.currentFunctionSymbolAutoUpdate": true,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "cs",
+    "markdown",
+    "javascript",
+    "python",
+    "typescript",
+    "typescriptreact",
+    "typescript.tsx",
+    "html",
+    "cshtml",
+    "json",
+    "jinja2",
+    "javascriptreact",
+    "vue",
+    "dart",
+    "yml"
+  ],
+  "tsserver.npm": "/usr/local/bin/npm",
+  "eslint.enable": false,
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "typescript.tsx",
+    "vue"
+  ],
+  "prettier.disableLanguages": [],
+  "prettier.htmlWhitespaceSensitivity": "ignore",
+  "python.jediPath": "/Users/gourav/Library/Python/3.7/lib/python/site-packages",
+  "vetur.validation.style": false,
+  "vetur.validation.template": false,
+  "vetur.validation.script": false,
+  "diagnostic.errorSign": "•",
+  "diagnostic.warningSign": "•",
+  "diagnostic.infoSign": "•",
+  "diagnostic.refreshOnInsertMode": true,
+  "languageserver": {
+    "golang": {
+      "command": "gopls",
+      "rootPatterns": [
+        "go.mod"
+      ],
+      "filetypes": [
+        "go"
+      ]
+    },
+    "dart": {
+      "command": "dart",
+      "args": [
+        "/usr/local/opt/dart/libexec/bin/snapshots/analysis_server.dart.snapshot",
+        "--lsp"
+      ],
+      "filetypes": [
+        "dart"
+      ]
+    }
+  },
+  // coc-explorer
+  "explorer.width": 30,
+  "explorer.position": "left",
+  "explorer.previewAction.onHover": false,
+  "explorer.keyMappings.global": {
+    "<cr>": [
+      "expandable?",
+      "expand",
+      "open"
+    ],
+    "v": "open.vsplit"
+  },
+  "explorer.icon.enableNerdfont": true,
+  //  "explorer.icon.enableVimDevicons": true,
+  "explorer.openAction.relativePath": true,
+  //  "explorer.icon.expanded": "",
+  //  "explorer.icon.collapsed": "",
+  //  "explorer.icon.customIcons": {
+  //    "icons": {
+  //      "folderClosed": {
+  //        "code": "",
+  //        "color": "#00afaf"
+  //      },
+  //      "folderOpened": {
+  //        "code": "",
+  //        "color": "#00afaf"
+  //      }
+  //    }
+  //  },
+  // coc-yaml
+  "yaml.validate": true,
+  "yaml.format.enable": true,
+  "yaml.completion": true,
+  "prettier.formatterPriority": -1,
+  "prettier.printWidth": 0
+}
